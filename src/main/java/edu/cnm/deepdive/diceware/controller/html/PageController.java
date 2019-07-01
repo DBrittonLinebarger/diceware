@@ -24,5 +24,5 @@ public class PageController {
     model.addAttribute("words", generator.passphrase(length));
     return "passphrase";
   }
-  
+
 }
